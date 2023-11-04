@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* CSS để tạo một phần tử có kích thước để cuộn xuống */
+        #scroll-to-element {
+            height: 1000px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Đặt các ID cho các phần tử bạn muốn cuộn đến -->
+<div id="element1">
+    <p>Element 1</p>
+</div>
+
+<div id="scroll-to-element">
+    <!-- Phần tử giả lập để có đủ chiều cao để cuộn đến -->
+</div>
+
+<div id="element2">
+    <p>Element 2</p>
+</div>
+
+<script>
+    // Sử dụng JavaScript để thực hiện cuộn web từ element1 đến element2 khi element1 được nhấp vào
+    document.getElementById("element1").addEventListener("click", function() {
+        document.getElementById("element2").scrollIntoView({ behavior: 'smooth' });
+    });
+</script>
+
+</body>
+</html>
