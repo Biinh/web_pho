@@ -25,6 +25,7 @@
                   
                  </ul></li>
             <li id="cuoi"><a id="cuoi">TIN  TỨC </a></li>
+
             <li id="tog"><a id="tog" >LIÊN  HỆ </a></li>
         </ul>
             </nav>
@@ -52,6 +53,7 @@
                 <img src="../img/quy1.png"> 
                 
                 <h2>  TUYỂN DỤNG QUÝ I NĂM 2022</h2>
+                <p>Chào bạn! Bạn có đam mê với phở và muốn tham gia và một đội ngũ tận tâm, nhiệt huyết và chuyên nghiệp? GOC PHO đang mở cửa tuyển dụng…<a href="#">Đọc thêm</a></p>
                </div>
             
                  
@@ -64,24 +66,29 @@
                      
                      <div class="tt">
                         <img src="../img/hanoi.png">
-                        <H2>HÀ NỘI - THỦ ĐÔ CỦA PHỞ; KHÁM PHÁ HƯƠNG VỊ TRUYỀN THỐNG</H2>
+                       
+                     <H2>HÀ NỘI - THỦ ĐÔ CỦA PHỞ; KHÁM PHÁ HƯƠNG VỊ TRUYỀN THỐNG</H2>
+                    <p>Trải qua hàng thế kỷ, Hà Nội đã trở thành “điểm hẹn” của những hương vị phở truyền thống, và đây là điều không thể bỏ qua khi bạn đặt chân đến thành phố này…<a href="#">Đọc thêm</a>
+                    </p>
                     </div>
                     <div class="tt">
                         <img src="../img/cauchuyen.png">
                     <H2>CÂU CHUYỆN KỲ DIỆU TỪ NHỮNG BÁT PHỞ; GIA ĐÌNH , TÌNH YÊU VÀ CÁC NGUỒN VĂN HÓA VIỆT</H2>
-                      
+                      <p>Phở, món ăn truyền thống của Việt Nam, không chỉ là một biểu tượng của văn hóa ẩm thực mà còn là một cách thể hiện tình cảm gia đình và tình yêu đối với quê hương…<a href="#">Đọc thêm</a></p>
                        </div>
                     
                          
                          <div class="tt">
                             <img src="../img/dulich.png">
                             <H2>PHÁT HIỆN NHỮNG ĐIỂM DU LỊCH NỔI TIẾNG ĐỂ THƯỞNG THỨC VỊ PHỞ TẠI CÁC THÀNH PHỐ CỦA VIỆT NAM</H2>
+                        <p>Việt Nam là một đất nước đa dạng về văn hóa và ẩm thực. Nếu bạn đam mê vị phở thơm ngon và đang dự định khám phá đất nước này…<a href="#">Đọc thêm</a></p>
                         </div>
                         
                              
                              <div class="tt">
                                 <img src="../img/biquyet.png">
                                 <H2>KHÁM PHÁ NHỮNG BÍ QUYẾT TẠO NÊN NHỮNG BÁT PHỞ ĐẶC BIỆT NGON TUYỆT</H2>
+                                <p>Đằng sau một bát phở có chất lượng đặc biệt là cả một bầu trời tâm huyết của người đầu bếp và những nguyên liệu tạo ra nó,...<a href="#">Đọc thêm</a></p>
                             </div>
                             <div class="tt">
                                 <img src="../img/quy3.png">
@@ -93,12 +100,14 @@
                                  <div class="tt">
                                     <img src="../img/gocpho.png">
                                     <H2>GÓC PHỞ - DI SẢN ẨM THỰC KHÔNG THỂ THIẾU KHI GHÉ THĂM HÀ NỘI</H2>
+                                    <p>Hà Nội, thủ đô Việt Nam không chỉ nổi tiếng với vẻ đẹp lịch sử và văn hóa, mà còn biết tới với những di sản ẩm thực trong đó có GOC PHO…<a href="#">Đọc thêm</a></p>
                                 </div>
                                 
                                      
                                      <div class="tt">
                                         <img src="../img/tailan.png">
                                         <H2>PHỞ TÁI LĂN: HƯƠNG VỊ ẨM THỰC HÀ THÀNH ĐÍCH THỰC</H2>
+                                        <p>Phở tái lăn là một biểu tượng ẩm thực Hà Nội, đặc trưng bởi những lớ mì sợi mỏng và thịt bò tươi ngon, có lẽ chính điều này đã khiến nó trở thành một phần…<a href="#">Đọc thêm</a></p>
                                     </div>
                                     <div class="tt">
                                         <img src="../img/phoco.png">
@@ -110,6 +119,7 @@
                                          <div class="tt">
                                             <img src="../img/quy2.png">
                                             <H2>TUYỂN DỤNG QUÝ II NĂM 2023</H2>
+                                            <p>Chào bạn! Bạn có đam mê với phở và muốn tham gia và một đội ngũ tận tâm, nhiệt huyết và chuyên nghiệp? GOC PHO đang mở cửa tuyển dụng…<a href="#">Đọc thêm</a></p>
                                         </div>
                                         
                                              
@@ -201,6 +211,7 @@
     const content2 = document.getElementById("box");
     const content3 = document.getElementById("do_an");
     const content4 = document.getElementById("do_uong");
+    const content5 = document.getElementById("an_di");
     
 
 
@@ -211,12 +222,14 @@ toggleButton.addEventListener("click", function() {
         content2.style.display = "none";
         content3.style.display = "none";
         content4.style.display = "none";
+        content5.style.display = "block";
 
     } else {
         content1.style.display = "block";
         content2.style.display = "none";
         content3.style.display = "none";
         content4.style.display = "none";
+        content5.style.display = "block";
     }
 });
 
@@ -237,13 +250,14 @@ if (content11.style.display === "block") {
     content22.style.display = "none";
     content33.style.display = "none";
     content44.style.display = "none";
-    content44.style.display = "none";
+    content55.style.display = "block";
 
 } else {
     content11.style.display = "block";
     content22.style.display = "none";
     content33.style.display = "none";
     content44.style.display = "none";
+    content55.style.display = "block";
 }
 });
 
@@ -255,6 +269,7 @@ const content111 = document.getElementById("do_an");
 const content222 = document.getElementById("box");
 const content333 = document.getElementById("vechungtoi1");
 const content444 = document.getElementById("do_uong");
+const content555 = document.getElementById("an_di");
 
 
 
@@ -264,12 +279,14 @@ if (content111.style.display === "none") {
     content222.style.display = "none";
     content333.style.display = "none";
     content444.style.display = "none";
+    content555.style.display = "block";
 
 } else {
     content111.style.display = "block";
     content222.style.display = "none";
     content333.style.display = "none";
     content444.style.display = "none";
+    content555.style.display = "block";
 }
 });
 
@@ -280,6 +297,8 @@ const content1111 = document.getElementById("do_uong");
 const content2222 = document.getElementById("box");
 const content3333 = document.getElementById("vechungtoi1");
 const content4444 = document.getElementById("do_an");
+const content5555 = document.getElementById("an_di");
+
 
 togg.addEventListener("click", function() {
     if (content1111.style.display === "none") {
@@ -287,45 +306,78 @@ togg.addEventListener("click", function() {
         content2222.style.display = "none";
         content3333.style.display = "none";
         content4444.style.display = "none";
+        content5555.style.display = "block";
     
     } else {
         content1111.style.display = "block";
         content2222.style.display = "none";
         content3333.style.display = "none";
         content4444.style.display = "none";
+        content5555.style.display = "block";
     }
     });
 
 
-    const tog = document.getElementById("tog");
-    const content11111 = document.getElementById("do_uong");
-    const content22222 = document.getElementById("box");
-    const content33333 = document.getElementById("vechungtoi1");
-    const content44444 = document.getElementById("do_an");
- 
+   
+const tog = document.getElementById("tog");
+const content11111 = document.getElementById("do_an");
+const content22222 = document.getElementById("box");
+const content33333 = document.getElementById("vechungtoi1");
+const content44444 = document.getElementById("do_uong");
+const content55555 = document.getElementById("an_di");
+
+
+
+tog.addEventListener("click", function() {
+if (content11111.style.display === "none") {
+    content11111.style.display = "none";
+    content22222.style.display = "none";
+    content33333.style.display = "none";
+    content44444.style.display = "none";
+    content55555.style.display = "block";
+
+} else {
+    content11111.style.display = "none";
+    content22222.style.display = "none";
+    content33333.style.display = "none";
+    content44444.style.display = "none";
+    content55555.style.display = "block";
+}
+});
+
+
     
-    tog.addEventListener("click", function() {
-        if (content11111.style.display === "none") {
-            content11111.style.display = "none";
-            content22222.style.display = "none";
-            content33333.style.display = "none";
-            content44444.style.display = "none";
-          
+        const togg2 = document.getElementById("cuoi");
+
+        const content111111 = document.getElementById("an_di");
+        const content222222 = document.getElementById("box");
+        const content333333 = document.getElementById("do_an");
+        const content444444 = document.getElementById("do_uong");
+        const content555555 = document.getElementById("vechungtoi1");
         
-        } else {
-            content11111.style.display = "none";
-            content22222.style.display = "none";
-            content33333.style.display = "none";
-            content44444.style.display = "none";
-        }
-        });
     
-
-
-
-    document.getElementById("cuoi").addEventListener("click", function() {
-        document.getElementById("box").scrollIntoView({ behavior: 'smooth' });
+    
+    
+    togg2.addEventListener("click", function() {
+        if (content111111.style.display === "block") {
+            content111111.style.display = "none";
+            content222222.style.display = "block";
+            content333333.style.display = "none";
+            content444444.style.display = "none";
+            content555555.style.display = "none";
+    
+    
+        } else {
+            content111111.style.display = "none";
+            content222222.style.display = "block";
+            content333333.style.display = "none";
+            content444444.style.display = "none";
+            content555555.style.display = "none";
+        }
     });
+
+
+
 
 </script>
 </body>
